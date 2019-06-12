@@ -4,68 +4,61 @@
 <html lang="en-us">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta charset="UTF-8">
   <title>Contact</title>
 </head>
 
 <body>
-  <header>
-    <h1>George Pap</h1>
+  <header id="main-header">
+    <div class="container">
+      <a id="logo">George Pap</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
   </header>
-  <nav>
-    <a href="index.html">About</a> |
-    <a href="portfolio.html">Portfolio</a> |
-    <a href="contact.html">Contact</a> |
-    
+
   </nav>
 
-
-
-
-  <div class="container">
-
-    <section id="main-bio">
-
+  <div id="main-container" class="container">
+    <section class="main-section">
 
       <h1>Contact</h1>
-        <form>
-                Name:<br>
-                <input type="text" name="firstname" ><br>
-                Email:<br>
-                <input type="text" name="lastname" ><br>
-                Message:<br>
-                <input type="text" name="firstname" ><br>
-                <br>
-                <input type="submit" value="Submit">
-    
-        </form>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" name="firstname">
+          </li>
+          <li>
+              <label for="email">Email</label>
+            <input type="text" email="email">
+          </li>
+          <li>
+              <label for="message">Message</label>
+            <textarea type="text" message="message"></textarea>
+            <br>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-      
     </section>
-    
-  
-<!--
-    </section id="main-bio">
-    <section>
-    <h2>Contact Info</h2>
-    <ul>
-      <li><strong>Email:</strong> <a href="#">dog8dog1@live.com</a></li>
-      <li><strong>Github:</strong> <a href="#">gmpap</a></li>
-      <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-    </ul>
-    </section>
-    -->
+
   </div>
 
 </body>
+<!--This is the footer-->
 <footer>
-    <div class="footer-bottom">
-      
-      <p>Copyright@</p>
-      
-    </div>
-    
-    
-    </footer>
+  <div class="footer-bottom">
+
+    Copyright &copy;
+
+  </div>
+</footer>
+
 </html>
